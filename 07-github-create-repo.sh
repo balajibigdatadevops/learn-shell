@@ -12,7 +12,7 @@ if [ $? -ne 0]; then
   gh auth login && gh repo list
 fi
 
-read -p "Enter your repository name:" repo_name
+read -p "Enter your Git repository name:" repo_name
 CDIR=$(pwd)
 
 mkdir local
