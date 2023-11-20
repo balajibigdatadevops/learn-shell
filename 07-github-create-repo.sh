@@ -23,7 +23,7 @@ git init
 git branch -m main
 git add -A
 git commit -m INIT
-gh repo create $name --public --source=. --push
+gh repo create $repo_name --public --source=. --push
 
 
 
